@@ -1,6 +1,15 @@
-<!-- fail.html -->
-<html><body>
-<script>
-  document.location.href="intent://open?status=fail#Intent;scheme=ytdownloader;package=com.akim99.ytdownload;end";
-</script>
-</body></html>
+<!-- ytdownload-fail.html -->
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Возврат в приложение</title>
+  </head>
+  <body>
+    <script>
+      window.location.replace("ytdownload://open?status=fail");
+    </script>
+  </body>
+</html>
+
